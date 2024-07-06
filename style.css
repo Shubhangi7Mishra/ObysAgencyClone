@@ -9,6 +9,16 @@ html,body{
     width: 100%;
     height: 100%;
 }
+#crsr{
+    height: 2.8vw;
+    width: 2.8vw;
+    border: 1px solid #ffffffa2;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 999;
+    mix-blend-mode: difference;
+    transform: translate(-50%,-50%);
+}
 #loader{
     height: 100%;
     width: 100%;
@@ -51,7 +61,7 @@ html,body{
     height: 16vh;
     font-weight: 500;
     animation-name: anime;
-    animation-duration: 1.8s;
+    animation-duration: 1.5s;
     animation-iteration-count: infinite;
     margin-left: -1vw;
 }
@@ -90,3 +100,75 @@ html,body{
     background-color: #151515;
     width: 100%;
 }
+#page1 #nav{
+    padding: 2.3vw 5.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav-part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5vw;
+}
+#nav-part2 h4{
+    font-weight: 500;
+    font-size: 15px;
+}
+.page1center{
+    width: 72%;
+    height: fit-content;
+    margin-left: 28%;
+    overflow: hidden;
+    position: relative;
+}
+.page1center:nth-child(2){
+    margin-top: 19vh;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    gap: 5.5vw;
+    margin-left: 7.5%;
+}
+.page1center h1{
+    font-size: 7.2vw;
+    line-height: 7.4vw;
+    font-weight: 600;
+}
+.page1center h5{
+    font-size: 3vw;
+    font-family: silk serif;
+    font-weight: 500;
+}
+#underline{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+#underline h2{
+    font-size: 7.2vw;
+    line-height: 7.4vw;
+    border-bottom: 9px solid #fff;
+}
+#underline h3{
+    font-size: 7.2vw;
+    line-height: 7.4vw;
+    border-bottom: 9px solid #fff;
+}
+.page1center h2:hover {
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+.page1center h3:hover {
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
