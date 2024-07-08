@@ -228,7 +228,7 @@ body{
     width: 72vw;
     margin-left: 28%;
     position: relative;
-    padding-top: 5vh;
+    padding: 7vh 0;
 }
 
 #page4-content>h1{
@@ -318,9 +318,73 @@ body{
     width: 100%;
     background-color: #151515;
     position: relative;
+    padding: 5vw 0;
 }
 
-/* Hardikk — 02/07/2024 1:58 PM
-Min height de kr 1 he page me 2 page rakh do or relative dedo parent ko
+.elem{
+    white-space: nowrap;
+    overflow-x: hidden;
+    line-height: 6vw;
+}
 
+.elem h1{
+ font-size: 7.2vw;
+ -webkit-text-stroke: 1px #fff;
+ color: transparent;
+ font-weight: 500;
+ text-transform: uppercase;
+ display: inline-block;
+ margin-right: 16px;
+ animation-name: animemove;
+ animation-duration: 25s;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
+}
+
+.elem span{
+    font-family: silk serif;
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    font-weight: 500;
+}
+
+@keyframes animemove{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(calc(-100% - 20px));
+    }
+}
+
+.elem2{
+    white-space: nowrap;
+    overflow-x: hidden;
+    line-height: 6vw;
+}
+
+.elem2 h1{
+    font-size: 7.2vw;
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-right: 16px;
+    transform: translateX(calc(-100% - 20px));
+    animation-name: animemove;
+    animation-duration: 25s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+   }
+
+   .elem2 span{
+    font-family: silk serif;
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    font-weight: 500;
+}
+
+/* Min height de kr 1 he page me 2 page rakh do or relative dedo parent ko
 Or jo 2 children he jinhe scroll pr 1 ke uper 1 krna he unhe sticky krdo or top 0 de dena */
