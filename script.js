@@ -54,7 +54,7 @@ function loaderAnimation(){
         opacity:0,
     })
 
-    tl.from(".page1center h1,.page1center h2,.page1center h3",{
+    tl.from(".page1center h1,.page1center h2",{
         y:150,
         stagger:0.2,
     })
