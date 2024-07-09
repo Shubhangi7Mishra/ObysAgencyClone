@@ -247,7 +247,7 @@ body{
     left: -13%;
 }
 
-#page4-content .underline1{
+.underline1{
     height: 1px;
     width: 91%;
     background-color: #fff;
@@ -386,5 +386,62 @@ body{
     font-weight: 500;
 }
 
-/* Min height de kr 1 he page me 2 page rakh do or relative dedo parent ko
-Or jo 2 children he jinhe scroll pr 1 ke uper 1 krna he unhe sticky krdo or top 0 de dena */
+#footer{
+    min-height: 100vh;
+    width: 72%;
+    background-color: #151515;
+    position: relative;  
+    margin-left: 28%;
+    padding: 2vw 0;
+}
+#footer>h1{
+    font-size: 7.2vw;
+    margin-bottom:5vw ;
+    position: relative;
+}
+
+#footer>h1::before{
+    content: "04";
+    font-size: 3.2vw;
+    font-weight: 500;
+    font-family: silk serif;
+    position: absolute;
+    left: -13%;
+}
+
+#footercontent{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 70%;
+    height: 100%;
+    margin-top: 8vw ;
+    margin-bottom: 8vw;
+   
+}
+
+#footercontent .box{
+    width: 20%;
+    margin-right: -4vw;
+
+}
+#footercontent .box>h5{
+    font-size: 1vw;
+    font-weight: 600;
+}
+#footercontent .box>h2{
+    font-weight: 500;
+    margin-top: 2vw;
+    font-size: 1.7vw;
+    line-height: 1.8vw;
+}
+
+#footercontent .box:nth-child(3){
+    text-decoration: underline;
+}
+#footer>h5{
+    margin-top: -2.5vw;
+    font-size: 1vw;
+    font-weight: 500;
+    margin-bottom: 6vw;
+}
