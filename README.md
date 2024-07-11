@@ -5,7 +5,7 @@ This repository is home to my faithful recreation of Obys Agency.
 Get ready to dive into a world of pure HTML, CSS, and JavaScript magic! 🪄
 
 I've meticulously crafted every pixel to mirror the original website's look and feel. 🎨
-Expect interactive elements, smooth animations, and a responsive design that'll make you do a double-take. 😉
+Expect interactive elements, smooth animations, and a responsive design that'll make you do a double-take. 🪼
 
 Feel free to explore, fork, and contribute! Your feedback and suggestions are the fuel to my coding fire. 🔥
 
