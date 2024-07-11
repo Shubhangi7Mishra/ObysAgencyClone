@@ -1,5 +1,5 @@
-Clone Wars: A Frontend Adventure ⚔️
-Welcome to my HTML, CSS, and JavaScript playground! 🚀
+#Clone Wars: A Frontend Adventure ⚔️
+##Welcome to my HTML, CSS, and JavaScript playground! 🚀
 
 This repository is home to my faithful recreation of Obys Agency.
 Get ready to dive into a world of pure HTML, CSS, and JavaScript magic! 🪄
