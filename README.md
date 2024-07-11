@@ -11,7 +11,7 @@ Feel free to explore, fork, and contribute! Your feedback and suggestions are th
 
 Let's build something awesome together! 🤝
 
-Tech Stack: HTML, CSS, JavaScript
+# Tech Stack: HTML, CSS, JavaScript
 
 Keywords: clone, website, frontend, HTML, CSS, JavaScript, web development
 
