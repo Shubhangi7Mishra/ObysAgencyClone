@@ -2,7 +2,7 @@
 ### Welcome to my HTML, CSS, and JavaScript playground! 🚀
 
 This repository is home to my faithful recreation of Obys Agency.
-Get ready to dive into a world of pure HTML, CSS, and JavaScript magic! 🪄
+Get ready to dive into a world of pure HTML, CSS, and JavaScript magic (which also includes the use of GSAP and Locomotive)! 🪄
 
 I've meticulously crafted every pixel to mirror the original website's look and feel. 🎨
 Expect interactive elements, smooth animations, and a responsive design that'll make you do a double-take. 🪼
